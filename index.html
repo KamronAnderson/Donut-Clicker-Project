@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Donut Clicker</title>
+</head>
+<body>
+
+<div class="container">
+    <button id="myBtn">My page</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>My name is Kamron. I am looking to expand my knowledge in coding/programming. Enjoy my game.  </p>
+  </div>
+
+</div>
+
+    <header class="info">
+        <nav>
+            
+            <ul id="info">
+                <li><button class="headerButtons"> About </button>
+                <div class="headerInfo">
+                    <p>
+                        Fred the baker whose signature line was "Time to make the doughnuts" is looking to bring joy to those all around the world.
+                    </p>
+                </div>
+                </li>
+
+                <li><button class="headerButtons"> Inspiration </button>
+                <div class="headerInfo">
+                    <p>
+                        The inspiration for this game can be found here:
+                        <a href="http://https://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>
+                    </p>
+                </div>
+                </li>
+
+                <li><button class="headerButtons"> Contact </button>
+                <div class="headerInfo">
+                    <p>
+                        <a href="https://kamronanderson.github.io/" target="_blank" > My portfolio</a>
+                        <a href="https://https://github.com/KamronAnderson" target="_blank" > My github</a>
+                    </p>
+                </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <button id="submit" class="btn">
+                <img id="clicker"  src="donutImage.jpg" />
+            </button>
+
+            <p>Donut Count: <span id="tracker" >0</span></p>
+
+        </section>
+
+        <hr>
+
+        <section >
+            <div id="update" class="updateHere">
+            
+                <p>AutoClickers Purchased: <span id="autoTracker">0</span>
+                
+                </p>
+                <p>Donut Clicker upgrade: <span id="cost"></span></p>
+                
+                <button id="autoClicker" class="btn">
+                Purchase AutoClicker
+                </button>
+            </div>
+
+            <!-- <button id="updateButton"> This is gonna crash</button> -->
+        </section>
+
+        <hr>
+    </main>
+
+
+    <button id="clear" type="reset">Reset</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
